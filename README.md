@@ -1,6 +1,6 @@
 ## Levantar el proyecto
 
-1. ##### [Node.js](https://nodejs.org/es/ "Node.js")
+1. [Node.js](https://nodejs.org/es/ "Node.js")
 2. `$ npm start`
 
 ##### Interprete para crear templates
