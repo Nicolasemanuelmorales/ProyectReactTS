@@ -1,19 +1,51 @@
 ## Levantar el proyecto
 
 1. [Node.js](https://nodejs.org/es/ "Node.js").
-2. `$ npm install` Sobre el origen del proyecto.
-3. `$ npm start`
+2. `npm install` Sobre el origen del proyecto.
+3. `npm start`
 
 ## Creación del proyecto
 
+> **PRETTIER** : Se configura desde los complementos del Visual Studio Code.
+>
+> 1. Se tiene que habilitar la opción **Format On Save** en `File -> Preferences -> Settings -> Text editor -> Formatting`.
+> 2. Presionar `CTRL + SHIFT + P` , escribir **settings.json** y agregar :
+
+```
+ "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+```
+
 ##### Interprete para crear templates
 
-`$ npm install -g create-react-app`
+`npm install -g create-react-app`
 
 ##### Se crea un template con base en java TypeScript
 
-`$ npx create-react-app NOMBRE-PROYECTO --template typescript`
+`npx create-react-app NOMBRE-PROYECTO --template typescript`
 
-## Dependecias instaladas
+## Navegación (Route)
 
-`$ npm install react-router-dom` Para la navegación.
+`npm install react-router-dom` Para la navegación.
+
+## Deploy con GitHub Pages
+
+1.  `npm install --save-dev gh-pages`
+
+2.  Se agrega en el **package.json** lo siguiente:
+
+    `"homepage":"https://yourusername.github.io/repository-name"`
+
+3.  En la seccion de **scripts** del archivo **package.json** agregar :
+    ```
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+    ```
+4.  Parado en la base del proyecto correr:
+
+    - `npm run build`
+    - `npm run deploy`
+
+5.  Se crea automáticamente el branch **Gh-pages** el cual luego en `Settings -> Pages` se tendra que seleccionar como branch principal
