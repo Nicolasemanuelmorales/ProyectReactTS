@@ -6,7 +6,9 @@
 
 ## Creación del proyecto
 
-> **PRETTIER** : Se configura desde los complementos del Visual Studio Code.
+#### Prettier
+
+> Se configura desde los complementos del Visual Studio Code.
 >
 > 1. Se tiene que habilitar la opción **Format On Save** en `File -> Preferences -> Settings -> Text editor -> Formatting`.
 > 2. Presionar `CTRL + SHIFT + P` , escribir **settings.json** y agregar :
@@ -18,9 +20,13 @@
     }
 ```
 
-#### Interprete para crear templates `npm install -g create-react-app`
+#### Interprete para crear templates
 
-#### Se crea un template con base en java TypeScript `npx create-react-app NOMBRE-PROYECTO --template typescript`
+`npm install -g create-react-app`
+
+#### Se crea un template con base en java TypeScript
+
+`npx create-react-app NOMBRE-PROYECTO --template typescript`
 
 ## Navegación (Route)
 
