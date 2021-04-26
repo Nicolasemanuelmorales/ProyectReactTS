@@ -18,13 +18,13 @@
     }
 ```
 
-##### Interprete para crear templates
+- #### Interprete para crear templates
 
-`npm install -g create-react-app`
+  `npm install -g create-react-app`
 
-##### Se crea un template con base en java TypeScript
+- #### Se crea un template con base en java TypeScript
 
-`npx create-react-app NOMBRE-PROYECTO --template typescript`
+  `npx create-react-app NOMBRE-PROYECTO --template typescript`
 
 ## Navegación (Route)
 
@@ -45,7 +45,7 @@
     ```
 4.  Parado en la base del proyecto correr:
 
-    - `npm run build`
-    - `npm run deploy`
+- `npm run build`
+- `npm run deploy`
 
 5.  Se crea automáticamente el branch **Gh-pages** el cual luego en `Settings -> Pages` se tendra que seleccionar como branch principal
