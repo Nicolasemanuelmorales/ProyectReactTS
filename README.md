@@ -32,7 +32,9 @@ Se configura desde los complementos del Visual Studio Code.
 
 ## Navegación (Route)
 
-`npm install react-router-dom` Para la navegación.
+`npm install react-router-dom`
+
+`npm i --save-dev @types/react-router-dom`
 
 ## Deploy con GitHub Pages
 
@@ -52,3 +54,15 @@ Se configura desde los complementos del Visual Studio Code.
     `npm run deploy`
 
 5.  Se crea automáticamente el branch **Gh-pages** el cual luego en `Settings -> Pages` se tendra que seleccionar como branch principal
+
+## Redux
+
+`npm i react-redux`
+
+## Material UI
+
+`npm install @material-ui/core`
+
++++++++++
+Falta ver Axios y Redux
++++++++++
