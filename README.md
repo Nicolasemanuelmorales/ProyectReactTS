@@ -63,6 +63,10 @@ Se configura desde los complementos del Visual Studio Code.
 
 `npm install @material-ui/core`
 
+## Icons
+
+`npm install @material-ui/icons`
+
 +++++++++
 Falta ver Axios y Redux
 +++++++++
