@@ -1,9 +1,20 @@
-import { Typography } from "@material-ui/core";
 import React from "react";
-import { useHistory } from "react-router";
+import { Grid } from "@material-ui/core";
+import { generalStyles } from "./home.styles";
 
 export default function Home() {
-  const history = useHistory();
+  const classes = generalStyles();
 
-  return <Typography onClick={() => history.push("/login")}>home</Typography>;
+  return (
+    <Grid
+      className={classes.base}
+      container
+      direction="row"
+      justify="center"
+      alignItems="center"
+      xs={12}
+    >
+      HOME
+    </Grid>
+  );
 }

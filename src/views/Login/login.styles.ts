@@ -12,7 +12,6 @@ export const generalStyles = makeStyles((theme) => ({
     height: "auto",
   },
   base: {
-    backgroundColor: "#171717",
     height: "100vh",
   },
   titulo: {
