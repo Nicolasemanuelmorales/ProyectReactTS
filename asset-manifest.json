@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/ProyectReactTS/static/js/main.02128605.chunk.js",
-    "main.js.map": "/ProyectReactTS/static/js/main.02128605.chunk.js.map",
+    "main.js": "/ProyectReactTS/static/js/main.44450986.chunk.js",
+    "main.js.map": "/ProyectReactTS/static/js/main.44450986.chunk.js.map",
     "runtime-main.js": "/ProyectReactTS/static/js/runtime-main.8cbde75b.js",
     "runtime-main.js.map": "/ProyectReactTS/static/js/runtime-main.8cbde75b.js.map",
-    "static/js/2.f9da6e48.chunk.js": "/ProyectReactTS/static/js/2.f9da6e48.chunk.js",
-    "static/js/2.f9da6e48.chunk.js.map": "/ProyectReactTS/static/js/2.f9da6e48.chunk.js.map",
+    "static/js/2.1b3baa71.chunk.js": "/ProyectReactTS/static/js/2.1b3baa71.chunk.js",
+    "static/js/2.1b3baa71.chunk.js.map": "/ProyectReactTS/static/js/2.1b3baa71.chunk.js.map",
     "index.html": "/ProyectReactTS/index.html",
-    "static/js/2.f9da6e48.chunk.js.LICENSE.txt": "/ProyectReactTS/static/js/2.f9da6e48.chunk.js.LICENSE.txt",
+    "static/js/2.1b3baa71.chunk.js.LICENSE.txt": "/ProyectReactTS/static/js/2.1b3baa71.chunk.js.LICENSE.txt",
     "static/media/perfil.83287292.png": "/ProyectReactTS/static/media/perfil.83287292.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8cbde75b.js",
-    "static/js/2.f9da6e48.chunk.js",
-    "static/js/main.02128605.chunk.js"
+    "static/js/2.1b3baa71.chunk.js",
+    "static/js/main.44450986.chunk.js"
   ]
 }
