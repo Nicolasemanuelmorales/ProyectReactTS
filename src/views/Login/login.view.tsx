@@ -9,12 +9,28 @@ import {
 import { useHistory } from "react-router";
 import { generalStyles } from "./login.styles";
 import { CssTextField } from "./login.styles";
-import AccessibilityNewIcon from "@material-ui/icons/AccessibilityNew";
 import logo from "../../assets/img/perfil.png";
+import { getRandomUser } from "../../services/login.service";
+import Result from "../../models/RandomUser/Result";
 
 export default function Login() {
   const history = useHistory();
   const classes = generalStyles();
+
+  const getUser = () => {
+    getRandomUser()
+      .then((resp: any) => {
+        resp.data.results.map((item: Result) => {
+          console.log(item);
+        });
+      })
+      .catch((error) => {
+        console.log(error, "Error: ");
+      })
+      .finally(() => {
+        history.push("/home");
+      });
+  };
 
   return (
     <Grid
@@ -53,7 +69,7 @@ export default function Login() {
             </Grid>
             <Grid item xs={12} className={classes.uspass}>
               <Button
-                onClick={() => history.push("/home")}
+                onClick={() => getUser()}
                 variant="outlined"
                 style={{
                   borderColor: "#40c1ac",
