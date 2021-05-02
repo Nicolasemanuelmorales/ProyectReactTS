@@ -12,7 +12,6 @@ export default function Home() {
       direction="row"
       justify="center"
       alignItems="center"
-      xs={12}
     >
       HOME
     </Grid>

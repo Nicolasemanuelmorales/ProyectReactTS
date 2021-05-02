@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Button,
-  Grid,
-  InputAdornment,
-  Paper,
-  Typography,
-} from "@material-ui/core";
+import { Button, Grid, Paper, Typography } from "@material-ui/core";
 import { useHistory } from "react-router";
 import { generalStyles } from "./login.styles";
 import { CssTextField } from "./login.styles";
@@ -21,7 +15,7 @@ export default function Login() {
     getRandomUser()
       .then((resp: any) => {
         resp.data.results.map((item: Result) => {
-          console.log(item);
+          return console.log(item);
         });
       })
       .catch((error) => {
@@ -39,7 +33,6 @@ export default function Login() {
       direction="row"
       justify="center"
       alignItems="center"
-      xs={12}
     >
       <Grid item xs={9} sm={6} md={3}>
         <Paper elevation={4} className={classes.principal}>
@@ -50,8 +43,9 @@ export default function Login() {
             <Grid>
               <Typography className={classes.titulo}>VALHALLA</Typography>
             </Grid>
-            <Grid className={classes.uspass}>
+            <Grid item xs={12} className={classes.uspass}>
               <CssTextField
+                key={1}
                 id="outlined-basic"
                 label="Usuario"
                 variant="outlined"
@@ -60,6 +54,7 @@ export default function Login() {
             </Grid>
             <Grid item xs={12} className={classes.uspass}>
               <CssTextField
+                key={2}
                 type="password"
                 id="outlined-basic"
                 label="Password"
