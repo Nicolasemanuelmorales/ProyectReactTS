@@ -45,19 +45,19 @@ export default function Login() {
             </Grid>
             <Grid item xs={12} className={classes.uspass}>
               <CssTextField
-                key={1}
                 id="outlined-basic"
                 label="Usuario"
+                value="UsuarioRandom"
                 variant="outlined"
                 size="small"
               />
             </Grid>
             <Grid item xs={12} className={classes.uspass}>
               <CssTextField
-                key={2}
                 type="password"
-                id="outlined-basic"
+                id="outlined-basicw"
                 label="Password"
+                value="Estoesunacontraseña"
                 variant="outlined"
                 size="small"
               />

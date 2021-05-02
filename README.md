@@ -67,6 +67,10 @@ Se configura desde los complementos del Visual Studio Code.
 
 `npm install @material-ui/icons`
 
+## Axios
+
+`npm i axios`
+
 +++++++++
-Falta ver Axios y Redux npm i axios
+Redux
 +++++++++
